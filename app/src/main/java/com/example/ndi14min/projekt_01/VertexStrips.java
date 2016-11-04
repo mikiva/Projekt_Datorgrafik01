@@ -289,11 +289,11 @@ public class VertexStrips {
 
         return bufferData[row];
     }
+99999
 
 
 
-
-    public void draw(float[] mvpMatrix) {
+    public void draw(float[] mvpMatrix, float) {
         // Add program to OpenGL ES environment
 
         GLES20.glUseProgram(mProgram);
